@@ -1,0 +1,211 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+.container-fluid{
+    padding:20px;
+    margin-top:20px;
+}
+.navbar .navbar-brand {
+    color: white;
+    font-weight:bold;
+    font-size:50px;
+}
+.navbar{
+    background-color:#87509C;
+    color:white;
+    margin:0px;
+}
+.navbar ul li{
+    margin-right:15px;
+}
+.navbar ul li a{
+    color:white;
+}
+.navbar ul li a:hover{
+    color:#643A79;
+}
+
+.navbar ul li:first-child {
+    background-color:#643A79;
+}
+.dropdown .dropdown-menu{
+    background-color:#87509C;
+    color:white;
+}
+.icon-bar{
+    background-color:white;
+}
+
+/********************************END OF NAV**************************************/
+
+.violet{
+    background-color:#87509C;
+    color:white;
+    text-align:center;
+}
+.vHeader{
+    font-weight:bold;
+    padding:30px;
+}
+.violet .btn{
+    margin-bottom:60px;
+    width:50%;
+    padding:20px;
+    color:white;
+}
+@media(max-width:500px){
+    .violet .btn{
+        width:100%;
+    }
+
+}
+.violet .btn-default{
+    background-color:#DD7647;
+    font-weight:bold;
+}
+.violet .btn-default:hover{
+    background-color:white;
+    color:#87509C;
+}
+/********************************END OF VIOLET**************************************/
+
+.green{
+    background-color:#17C2A4;
+    text-align:center;
+    color:white;
+}
+.gP{
+    margin:40px auto;
+}
+.servicesImg{
+    height:139px;
+}
+.green .col-md-3{
+    margin-bottom:20px;
+}
+/********************************END OF GREEN**************************************/
+
+
+.whitesmoke {
+    background-color:#E7F1F8;
+    text-align:center;
+}
+.whitesmoke .social img {
+    display:inline-block;
+}
+/********************************END OF WHITESMOKE**************************************/
+
+.white{
+    text-align:center;
+}
+.white p{
+    margin: 30px auto;
+}
+
+/********************************END OF WHITE**************************************/
+
+.orange{
+    text-align:center;
+    background-color:#FFDD99;
+}
+
+.PortfolioImages img {
+    background-color:#FFDD99;
+    width:50%;
+    height:auto;
+}
+.PortfolioButtons{
+    text-align:center; 
+    margin:40px auto;
+}
+.PortfolioButtons .btn{
+    width:150px;
+    background-color:#EBC985;
+    font-weight:bold;
+    margin:5px;
+}
+
+
+.PortfolioButtons .btn:hover{
+    background-color:white;
+}
+.orange .singleBTN{
+    background-color:#17C2A4;
+    color:white;
+    font-weight:bold;
+    width:200px;
+    height:80px;
+    margin:40px auto;
+    border-bottom:5px solid #14A58C;
+}
+.orange .singleBTN:hover{
+    background-color:white;
+    color:#17C2A4;
+}
+
+@media(max-width:500px){
+    .orange .btn{
+        width:100%;
+        font-size:12px;
+    }
+
+
+}
+@media(max-width:991px){
+    .PortfolioImages img {
+        width:100%;
+    }
+}
+/********************************END OF ORANGE**************************************/
+
+.pink{
+    background-color:#D74680;
+    color:white;
+}
+.pink .col-md-6{
+    padding:20px;
+}
+.pink h1,p{
+    text-align:center;
+    margin:20px;
+}
+/********************************END OF PINK**************************************/
+
+
+
+.blue{
+    background-color:#3C5499;
+    color:white;
+}
+.blue h1,p{
+    text-align:center;
+}
+.blue .btn-default{
+    background-color:#30BAE7;
+    color:white;  
+    margin:auto;
+    display:block;
+}
+.blue .btn:hover{
+    background-color:white;
+    color:#273A71;  
+}
+/********************************END OF BLUE**************************************/
+
+.footer{
+    background-color:#273A71;
+    color:white;
+    text-align:center;
+
+}
+.footer a{
+    display:inline-block;
+    padding:20px;
+}
+.footer a{
+    color:white;
+}

@@ -213,7 +213,9 @@ p {
 }
 
 .blue h1,
-p {
+p,
+.h3,
+h3 {
     text-align: center;
 }
 
@@ -255,5 +257,10 @@ p {
     }
     .pagination {
         width: 48%;
+    }
+    canvas {
+        display: inline-block;
+        vertical-align: baseline;
+        width: 100%;
     }
 }
